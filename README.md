@@ -7,6 +7,26 @@
 * Prophecy: The returning thing will be the problem because nobody every agreed on what an emoji actually is...
 * create a logo with sÄÜp (the coolest project name on earth)
 
+## Buildah / Podman
+
+The plan is to have a `bui.sh` which uses the `Buildah` tool to 
+prepare a `Ubuntu:22.04` image with the addtional features:
+
+* gtk4 + build essentials
+* rust / crates
+* the actual source
+
+Then we prepare a run-comman with mount-points so that the executable
+is delivered to the host directly
+
+Note: For development we may try
+`podman run -it --name saup-dev -v /home/fw/Devel/saeuep:/saeuep saeuep:latest  /bin/bash`
+
+### Details
+
+* https://www.redhat.com/sysadmin/buildah-unshare-command
+
+
 ## GTK - Hell Yeah - 28 Years Later
 
 * https://gtk-rs.org/
