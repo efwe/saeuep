@@ -8,16 +8,11 @@
             <object class="GtkBox" id="v_box">
                 <property name="orientation">vertical</property>
                 <child>
-                    <object class="GtkLabel" id="emoji_label">
+                    <object class="GtkButton" id="emoji_button">
                         <property name="margin-top">12</property>
                         <property name="margin-bottom">12</property>
                         <property name="margin-start">12</property>
                         <property name="margin-end">12</property>
-                    </object>
-                </child>
-                <child>
-                    <object class="GtkEmojiChooser" id="emoji_chooser">
-                        <property name="margin-top">10</property>
                     </object>
                 </child>
             </object>
